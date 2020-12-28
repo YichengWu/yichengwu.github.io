@@ -1,0 +1,473 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Yicheng Wu</title>
+  
+  <meta name="author" content="Yicheng Wu">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/Rice_logo.png">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Yicheng Wu</name>
+              </p>
+			  <p>I am a sixth-year Ph.D. student at <a href="https://www.rice.edu/">Rice University</a>. I am working under the guidance of <a href="https://computationalimaging.rice.edu/">Ashok Veeraraghavan</a> in the Department of Electrical and Computer Engineering. I'm interested in computer vision and deep learning.
+              </p>
+              <p style="text-align:center">
+                <a href="mailto:wuyichengg@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="data/CV_Yicheng_Wu.pdf">CV</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=SloyGEkAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://www.linkedin.com/in/yicheng-wu-77563278/">Linkedin</a> &nbsp/&nbsp
+                <a href="https://github.com/YichengWu">Github</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/Yicheng_round.jpg"><img style="width:70%;max-width:70%" alt="profile photo" src="images/Yicheng_round.jpg" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <!-- <p> -->
+			    <!-- I'm interested in computer vision and deep learning. -->
+				<!-- My current research topic is Deep imaging: optimizing computational imaging systems using deep learning. The key idea is to design task-specific imaging systems using end-to-end-learning frameworks which jointly optimize optics and algorithms. -->
+              <!-- </p> -->
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+          <tr onmouseout="flare_stop()" onmouseover="flare_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='flare_image'>
+                  <img src='images/flare_after.png' width="160"></div>
+                <img src='images/flare_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function flare_start() {
+                  document.getElementById('flare_image').style.opacity = "1";
+                }
+
+                function flare_stop() {
+                  document.getElementById('flare_image').style.opacity = "0";
+                }
+                flare_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2011.12485">
+                <papertitle>Single-Image Lens Flare Removal</papertitle>
+              </a>
+              <br>
+			  <strong>Yicheng Wu</strong>,
+              <a href="https://scholar.google.com/citations?user=BxqV_RsAAAAJ">Qiurui He</a>,
+              <a href="https://people.csail.mit.edu/tfxue/">Tianfan Xue</a>,
+              <a href="http://rahuldotgarg.appspot.com/">Rahul Garg</a>,
+              <a href="http://people.csail.mit.edu/jiawen/">Jiawen Chen</a>,
+              <a href="https://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>,
+			  <a href="https://jonbarron.info/">Jonathan T. Barron</a>
+              <br>
+              <em>arXiv</em>, 2020  
+              <br>
+			  <a href="">project page</a> / 
+              <a href="https://arxiv.org/abs/2011.12485">arXiv</a> /
+			  <a href="data/wu2020single.bib">bibtex</a>
+              <p></p>
+              <p>
+                We propose a novel semi-synthetic pipeline for data generation based on the camera model, and train a network that removes lens flare from a single image.
+              </p>
+            </td>
+          </tr> 
+
+
+          <tr onmouseout="deepdof_stop()" onmouseover="deepdof_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='deepdof_image'>
+                  <img src='images/deepdof_after.png' width="160"></div>
+                <img src='images/deepdof_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function deepdof_start() {
+                  document.getElementById('deepdof_image').style.opacity = "1";
+                }
+
+                function deepdof_stop() {
+                  document.getElementById('deepdof_image').style.opacity = "0";
+                }
+                deepdof_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://www.pnas.org/content/early/2020/12/09/2013571117">
+                <papertitle>Deep Learning Extended Depth-of-field Microscope for Fast and Slide-free Histology</papertitle>
+              </a>
+              <br>
+              <a href="https://lj19.blogs.rice.edu/">Lingbo Jin</a>,
+              <a href="https://kortum.rice.edu/fellows-scientists-staff/yubo-tang">Yubo Tang</a>,
+			  <strong>Yicheng Wu</strong>,
+			  Jackson B. Coole, Melody T. Tan, Xuan Zhao, Hawraa Badaoui, Jacob T. Robinson, Michelle D. Williams, Ann M. Gillenwater, 
+			  <a href="https://kortum.rice.edu/">Rebecca R. Richards-Kortum</a>,
+			  <a href="https://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>
+              <br>
+              <em>Proceedings of the National Academy of Sciences (PNAS)</em>, 2020  
+              <br>
+              <a href="https://www.pnas.org/content/early/2020/12/09/2013571117">paper</a> / 
+              <a href="http://news.rice.edu/2020/12/17/ai-powered-microscope-could-check-cancer-margins-in-minutes-2/">Rice news</a> / 
+              <a href="data/jin2020deep.bib">bibtex</a>
+              <p></p>
+              <p>
+                AI-powered microscope could check cancer margins in minutes.
+              </p>
+            </td>
+          </tr> 
+		  
+		  
+		  
+          <tr onmouseout="freecam3d_stop()" onmouseover="freecam3d_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='freecam3d_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/freecam3d_unicorn.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/freecam3d_unicorn.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function freecam3d_start() {
+                  document.getElementById('freecam3d_image').style.opacity = "1";
+                }
+
+                function freecam3d_stop() {
+                  document.getElementById('freecam3d_image').style.opacity = "0";
+                }
+                freecam3d_stop()
+              </script>
+            </td>	
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://link.springer.com/chapter/10.1007/978-3-030-58583-9_19">
+                <papertitle>FreeCam3D: Snapshot Structured Light 3D with Freely-Moving Cameras</papertitle>
+              </a>
+              <br>
+			  <strong>Yicheng Wu</strong>,
+              <a href="https://vivekboominathan.com/">Vivek Boominathan</a>,
+              <a href="https://www.linkedin.com/in/xuan-zhao-94308991/">Xuan Zhao</a>,
+              <a href="https://www.robinsonlab.com/jacob-t-robinson">Jacob T. Robinson</a>,
+			  <a href="http://www.cvg.ait.kyushu-u.ac.jp/">Hiroshi Kawasaki</a>,
+			  <a href="http://imagesci.ece.cmu.edu/index.html">Aswin Sankaranarayanan</a>,
+			  <a href="https://computationalimaging.rice.edu/">Ashok Veeraraghavan</a>
+              <br>
+              <em>ECCV</em>, 2020  
+              <br>
+			  <a href="https://yichengwu.github.io/freecam3d/">project page</a> / 
+              <a href="https://link.springer.com/chapter/10.1007/978-3-030-58583-9_19">paper</a> /
+			  <a href="data/wu2020freecam3d.bib">bibtex</a>
+              <p></p>
+              <p>
+                We provide a structured light framework for self-localization of freely moving cameras and scene depth map estimation.
+              </p>
+            </td>
+          </tr> 		  
+
+
+		  
+          <tr onmouseout="wished_stop()" onmouseover="wished_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='wished_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/wished_bunny.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='images/wished_bunny_phase.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function wished_start() {
+                  document.getElementById('wished_image').style.opacity = "1";
+                }
+
+                function wished_stop() {
+                  document.getElementById('wished_image').style.opacity = "0";
+                }
+                wished_stop()
+              </script>
+            </td>		  
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/9105280">
+                <papertitle>WISHED: Wavefront Imaging Sensor with High Resolution and Depth Ranging</papertitle>
+              </a>
+              <br>			  
+			  <strong>Yicheng Wu</strong>,
+              <a href="https://fengqiangnu.github.io/">Fengqiang Li</a>,
+              <a href="https://fwillomitzer.netlify.app/">Florian Willomitzer</a>,
+			  <a href="https://computationalimaging.rice.edu/">Ashok Veeraraghavan</a>,
+			  <a href="https://compphotolab.northwestern.edu/people/oliver-ollie-cossairt/">Oliver Cossairt</a>
+              <br>
+              <em>ICCP</em>, 2020 &nbsp <font color="red"><strong>(Oral)</strong></font>
+              <br>
+			  <a href="https://compphotolab.northwestern.edu/project/wavefront-imaging-sensor-with-high-resolution-and-depth-ranging/">project page</a> / 
+              <a href="https://ieeexplore.ieee.org/document/9105280">paper</a> /
+              <a href="https://www.youtube.com/watch?v=Kmewwkv4iUA&t=4s">video</a> /
+			  <a href="data/wu2020wished.bib">bibtex</a>
+              <p></p>
+              <p>
+                A high depth and lateral resolution 3D sensor for macroscopic rough objects by leveraging wavelength diversity and wavefront sensing.
+              </p>
+            </td>
+          </tr> 
+				  
+				  
+				  
+          <tr onmouseout="phasecam3d_stop()" onmouseover="phasecam3d_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='phasecam3d_image'>
+                  <img src='images/phasecam3d_disparity.jpg' width="160"></div>
+                <img src='images/phasecam3d_image.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function phasecam3d_start() {
+                  document.getElementById('phasecam3d_image').style.opacity = "1";
+                }
+
+                function phasecam3d_stop() {
+                  document.getElementById('phasecam3d_image').style.opacity = "0";
+                }
+                phasecam3d_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/document/8747330">
+                <papertitle>PhaseCam3D — Learning Phase Masks for Passive Single View Depth Estimation</papertitle>
+              </a>
+              <br>
+			  <strong>Yicheng Wu</strong>,
+              <a href="https://vivekboominathan.com/">Vivek Boominathan</a>,
+              <a href="http://hc25.web.rice.edu/">Huaijin Chen</a>,
+			  <a href="http://imagesci.ece.cmu.edu/index.html">Aswin Sankaranarayanan</a>,
+			  <a href="https://computationalimaging.rice.edu/">Ashok Veeraraghavan</a>
+              <br>
+              <em>ICCP</em>, 2019 &nbsp <font color="red"><strong>(Oral, <a href="images/phasecam3d_best_poster_award.jpg"><font color="red">Best Poster Award</a></font>)</strong></font>
+              <br>
+              <a href="http://yicheng.rice.edu/phasecam3d/">project page</a> /
+              <a href="https://ieeexplore.ieee.org/document/8747330">paper</a> /
+              <a href="https://www.youtube.com/watch?v=CV4vEAjBv20">video</a> /
+              <a href="https://github.com/YichengWu/PhaseCam3D">code</a> /
+			  <a href="data/wu2019phasecam3d.bib">bibtex</a>
+              <p></p>
+              <p>
+                We jointly optimize the camera hardware (i.e., phase mask) and the algorithm (i.e., neural network) for depth estimation from a single image.
+              </p>
+            </td>
+          </tr> 
+		  
+          <!-- <tr> -->
+            <!-- <td style="padding:20px;width:25%;vertical-align:middle"> -->
+              <!-- <img src="images/wish.png" alt="3DSP" width="160" height="127" style="border-style: none"> -->
+            <!-- </td> -->
+          <tr onmouseout="wish_stop()" onmouseover="wish_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='wish_image'>
+                  <img src='images/wish_phase_zoom2.png' width="160"></div>
+                <img src='images/wish_amplitude_zoom2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function wish_start() {
+                  document.getElementById('wish_image').style.opacity = "1";
+                }
+
+                function wish_stop() {
+                  document.getElementById('wish_image').style.opacity = "0";
+                }
+                wish_stop()
+              </script>
+            </td>			
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://www.nature.com/articles/s41377-019-0154-x">
+                <papertitle>WISH: Wavefront Imaging Sensor with High Resolution</papertitle>
+              </a>
+              <br>
+			  <strong>Yicheng Wu</strong>,
+			  <a href="https://sites.google.com/view/manojsharmaresearch/home">Manoj Kumar Sharma</a>,
+			  <a href="https://computationalimaging.rice.edu/">Ashok Veeraraghavan</a>
+              <br>
+              <em>Nature - Light: Science & Applications</em>, 2019
+              <br>
+              <a href="https://yichengwu.github.io/wish/">project page</a> /
+              <a href="https://www.nature.com/articles/s41377-019-0154-x">paper</a> /
+              <a href="https://github.com/YichengWu/wish">code</a> /
+			  <a href="data/wu2019wish.bib">bibtex</a>
+              <p></p>
+              <p>
+			    WISH provides wavefront reconstruction with a 10 megapixel resolution, several orders of magnitude better than commercial Shack-Hartmann sensors.  
+              </p>
+            </td>
+          </tr> 		  
+		  
+		  
+		 
+          <tr onmouseout="savi_stop()" onmouseover="savi_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='savi_image'>
+                  <img src='images/savi_after.jpg' width="160"></div>
+                <img src='images/savi_before.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function savi_start() {
+                  document.getElementById('savi_image').style.opacity = "1";
+                }
+
+                function savi_stop() {
+                  document.getElementById('savi_image').style.opacity = "0";
+                }
+                savi_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="http://advances.sciencemag.org/content/3/4/e1602564">
+                <papertitle>SAVI: Synthetic Apertures for Long-Range, Sub-Diffraction Limited Visible Imaging Using Fourier Ptychography</papertitle>
+              </a>
+              <br>
+			  <a href="http://jrholloway.com/">Jason Holloway</a>,
+			  <strong>Yicheng Wu</strong>,
+			  <a href="https://sites.google.com/view/manojsharmaresearch/home">Manoj Kumar Sharma</a>,
+			  <a href="https://compphotolab.northwestern.edu/people/oliver-ollie-cossairt/">Oliver Cossairt</a>,
+			  <a href="https://computationalimaging.rice.edu/">Ashok Veeraraghavan</a>
+              <br>
+              <em>Science Advances</em>, 2017
+              <br>
+              <a href="http://jrholloway.com/projects/SAVI/">project page</a> /
+              <a href="http://advances.sciencemag.org/content/3/4/e1602564">paper</a> /
+              <a href="http://news.rice.edu/2017/04/14/savi-camera-ditches-long-lens-for-distant-images/">Rice news</a> /
+			  <a href="data/holloway2017savi.bib">bibtex</a>
+              <p></p>
+              <p>
+                We propose to use macroscopic Fourier ptychography as a practical means of creating a synthetic aperture for visible imaging, to achieve sub-diffraction limited resolution.
+              </p>
+            </td>
+          </tr> 		 
+		 
+		 
+
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/diffraction_fringes.jpg" alt="3DSP" width="160" height="122" style="border-style: none">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://www.sciencedirect.com/science/article/abs/pii/S003040261500755X">
+                <papertitle>Improvements of Measuring the Width of Fraunhofer Diffraction Fringes using Fourier Transform</papertitle>
+              </a>
+              <br>
+			  <strong>Yicheng Wu</strong>,
+			  Jialin Ma, Yi Yang, Ping Sun
+              <br>
+              <em>Optik-International Journal for Light and Electron Optics</em>, 2015
+              <br>
+              <a href="https://www.sciencedirect.com/science/article/abs/pii/S003040261500755X">paper</a> /
+			  <a href="data/wu2015improvements.bib">bibtex</a>
+              <p></p>
+              <p>
+                We propose an improved method for calculating the fringe width of Fraunhofer diffraction using Fourier transform.
+              </p>
+            </td>
+          </tr> 		 
+		 		 
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/transformation_optics.jpg" alt="3DSP" width="160" height="160" style="border-style: none">
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://iopscience.iop.org/article/10.1088/0143-0807/36/1/015006">
+                <papertitle>Controlling the Wave Propagation through the Medium Designed by Linear Coordinate Transformation</papertitle>
+              </a>
+              <br>
+			  <strong>Yicheng Wu</strong>,
+			  Chengdong He, Yuzhuo Wang, Xuan Liu, Jing Zhou
+              <br>
+              <em>European Journal of Physics</em>, 2014
+              <br>
+              <a href="https://iopscience.iop.org/article/10.1088/0143-0807/36/1/015006">paper</a> /
+			  <a href="data/wu2014controlling.bib">bibtex</a>
+              <p></p>
+              <p>
+                Based on the principle of transformation optics, we propose to control the wave propagating by linear coordinate transformation.
+              </p>
+            </td>
+          </tr> 	
+
+
+        </tbody></table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Patents</heading>
+			  
+			  <p>  		  
+			  <strong>Yicheng Wu</strong>, Vivek Boominathan, Huaijin Chen, Aswin C. Sankaranarayanan, Ashok Veeraraghavan. <a href="https://patents.google.com/patent/US20200349729A1/en"> Passive and single-viewpoint 3d imaging system </a>, US20200349729A1, 2020
+			  </p>
+			  
+			  <p>  		  
+			  <strong>Yicheng Wu</strong>, Manoj Kumar Sharma, Ashok Veeraraghavan. <a href="https://patents.google.com/patent/US20200351454A1/en"> Wish: wavefront imaging sensor with high resolution </a>, US20200351454A1, 2020
+			  </p>			  
+
+			  <p>  	
+			  Oliver Cossairt, Jason Holloway, Ashok Veeraraghavan, Manoj Kumar Sharma, <strong>Yicheng Wu</strong>. <a href="https://patents.google.com/patent/US20200150266A1/en"> Wish: wavefront imaging sensor with high resolution </a>, US20200150266A1, 2020
+			  </p>	
+			  
+			  
+            </td>
+          </tr>
+        </tbody></table>
+		
+	
+
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Teaching</heading>
+			  
+			  <p>  Teaching Assisant, <em>Introduction to Computer Vision</em>, Rice University ECE/CS, Spring 2020 2018 </p>
+			  <p>  Teaching Assisant, <em>Computational Photography</em>, Rice University ECE, Fall 2019 2017 </p>
+			  
+            </td>
+          </tr>
+        </tbody></table>	
+		
+		
+		
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                Website credits to <a href="https://jonbarron.info/">Jon Barron</a>
+              </p>
+            </td>
+          </tr>
+        </tbody></table>		
+		
+		
+		
+    </tr>
+  </table>
+</body>
+
+</html>
