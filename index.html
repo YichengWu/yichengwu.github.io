@@ -63,6 +63,48 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
+
+          <tr onmouseout="codedstereo_stop()" onmouseover="codedstereo_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='codedstereo_image'>
+                  <img src='images/codedstereo_after.png' width="160"></div>
+                <img src='images/codedstereo_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function codedstereo_start() {
+                  document.getElementById('codedstereo_image').style.opacity = "1";
+                }
+
+                function codedstereo_stop() {
+                  document.getElementById('codedstereo_image').style.opacity = "0";
+                }
+                flare_stop()
+              </script>
+            </td>
+
+            <td style="padding:20px;width:75%;vertical-align:middle">
+                <papertitle>CodedStereo: Learned Phase Masks for Large Depth-of-field Stereo</papertitle>
+              </a>
+              <br>
+              <a href="https://shiyu.blogs.rice.edu/">Shiyu Tan*</a>,
+			        <strong>Yicheng Wu*</strong>,
+              <a href="https://sites.google.com/view/shoou-i-yu/home">Shoou-I Yu</a>,
+              <a href="https://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>
+              (*: co-first author)
+              <br>
+              <em>CVPR</em>, 2021&nbsp <font color="red"><strong>(Oral)</strong></font>
+              <br>
+			        paper is coming soon
+              <p></p>
+              <p>
+               A novel end-to-end optimized stereo system with learned phase masks to achieve high-quality texture and depth reconstruction for large depth-of-field in light-limited environments.
+              </p>
+            </td>
+          </tr> 
+
+
+
           <tr onmouseout="flare_stop()" onmouseover="flare_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -224,11 +266,13 @@
                 <papertitle>WISHED: Wavefront Imaging Sensor with High Resolution and Depth Ranging</papertitle>
               </a>
               <br>			  
-			  <strong>Yicheng Wu</strong>,
-              <a href="https://fengqiangnu.github.io/">Fengqiang Li</a>,
+			  <strong>Yicheng Wu*</strong>,
+              <a href="https://fengqiangnu.github.io/">Fengqiang Li*</a>,
               <a href="https://fwillomitzer.netlify.app/">Florian Willomitzer</a>,
               <a href="https://computationalimaging.rice.edu/">Ashok Veeraraghavan</a>,
               <a href="https://compphotolab.northwestern.edu/people/oliver-ollie-cossairt/">Oliver Cossairt</a>
+              <br>
+               (*: co-first author)
               <br>
               <em>ICCP</em>, 2020 &nbsp <font color="red"><strong>(Oral)</strong></font>
               <br>
