@@ -37,7 +37,7 @@
 			        <p>I am a Research Scientist at  <a href="https://research.snap.com">Snap Research</a>. I work mainly in the field of computational photography and computer vision. I obtained my Ph.D. degree from <a href="https://rice.edu">Rice University</a>.
               </p>
               <p>
-                There will be Research Intern positions every year. Please contact me via email if you are interested.
+                There will be Research Intern positions every year at Snap. Please contact me via email if you are interested.
               </p>
               <p style="text-align:center">
                 <a href="mailto:wuyichengg@gmail.com">Email</a> &nbsp/&nbsp
@@ -66,6 +66,49 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
+
+          <tr onmouseout="flare_stop()" onmouseover="flare_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='flare_image'>
+                  <img src='images/flare_after.png' width="160"></div>
+                <img src='images/flare_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function flare_start() {
+                  document.getElementById('flare_image').style.opacity = "1";
+                }
+
+                function flare_stop() {
+                  document.getElementById('flare_image').style.opacity = "0";
+                }
+                flare_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2011.12485">
+                <papertitle>How to Train Neural Networks for Flare Removal</papertitle>
+              </a>
+              <br>
+			        <strong>Yicheng Wu</strong>,
+              <a href="https://scholar.google.com/citations?user=BxqV_RsAAAAJ">Qiurui He</a>,
+              <a href="https://people.csail.mit.edu/tfxue/">Tianfan Xue</a>,
+              <a href="http://rahuldotgarg.appspot.com/">Rahul Garg</a>,
+              <a href="http://people.csail.mit.edu/jiawen/">Jiawen Chen</a>,
+              <a href="https://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>,
+              <a href="https://jonbarron.info/">Jonathan T. Barron</a>
+              <br>
+              <em>ICCV</em>, 2021  
+              <br>
+			        <a href="https://yichengwu.github.io/flare-removal/">project page</a> / 
+              <a href="https://arxiv.org/abs/2011.12485">arXiv</a> /
+			        <a href="data/wu2020single.bib">bibtex</a>
+              <p></p>
+              <p>
+                We propose a novel semi-synthetic pipeline for data generation based on the physics model, and train neural networks to remove lens flare from a single image.
+              </p>
+            </td>
+          </tr> 
 
           <tr onmouseout="codedstereo_stop()" onmouseover="codedstereo_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -110,48 +153,7 @@
 
 
 
-          <tr onmouseout="flare_stop()" onmouseover="flare_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='flare_image'>
-                  <img src='images/flare_after.png' width="160"></div>
-                <img src='images/flare_before.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function flare_start() {
-                  document.getElementById('flare_image').style.opacity = "1";
-                }
-
-                function flare_stop() {
-                  document.getElementById('flare_image').style.opacity = "0";
-                }
-                flare_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://arxiv.org/abs/2011.12485">
-                <papertitle>How to Train Neural Networks for Flare Removal</papertitle>
-              </a>
-              <br>
-			        <strong>Yicheng Wu</strong>,
-              <a href="https://scholar.google.com/citations?user=BxqV_RsAAAAJ">Qiurui He</a>,
-              <a href="https://people.csail.mit.edu/tfxue/">Tianfan Xue</a>,
-              <a href="http://rahuldotgarg.appspot.com/">Rahul Garg</a>,
-              <a href="http://people.csail.mit.edu/jiawen/">Jiawen Chen</a>,
-              <a href="https://computationalimaging.rice.edu/team/ashok-veeraraghavan/">Ashok Veeraraghavan</a>,
-              <a href="https://jonbarron.info/">Jonathan T. Barron</a>
-              <br>
-              <em>arXiv</em>, 2020  
-              <br>
-			        <a href="https://yichengwu.github.io/flare-removal/">project page</a> / 
-              <a href="https://arxiv.org/abs/2011.12485">arXiv</a> /
-			        <a href="data/wu2020single.bib">bibtex</a>
-              <p></p>
-              <p>
-                We propose a novel semi-synthetic pipeline for data generation based on the physics model, and train neural networks to remove lens flare from a single image.
-              </p>
-            </td>
-          </tr> 
+          
 
 
           <tr onmouseout="deepdof_stop()" onmouseover="deepdof_start()">
