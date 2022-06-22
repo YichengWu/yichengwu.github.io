@@ -65,6 +65,48 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+          
+
+          <tr onmouseout="ecc_stop()" onmouseover="ecc_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ecc_image'>
+                <img src="images/ecc_after.png" width="160"></div>
+                <img src='images/ecc_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function ecc_start() {
+                  document.getElementById('ecc_image').style.opacity = "1";
+                }
+
+                function ecc_stop() {
+                  document.getElementById('ecc_image').style.opacity = "0";
+                }
+                ecc_stop()
+              </script>
+            </td>		  
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="http://arxiv.org/abs/2206.09243">
+                <papertitle>Structured Light with Redundancy Codes</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=XRurc18AAAAJ&hl=en/">Zhanghao Sun</a>,
+              <a>Yu Zhang</a>,
+			         <strong>Yicheng Wu</strong>,
+               <a>Dong Huo</a>,
+               <a href="https://yi-ming-qian.github.io/">Yiming Qian</a>,
+              <a href="https://jianwang-cmu.github.io/">Jian Wang</a>
+              <br>
+              <em>arXiv</em>, 2022
+              <br>
+              <a href="http://arxiv.org/abs/2206.09243">arXiv</a>
+              <p></p>
+              <p>
+                We improve the robustness of structured light (SL) by projecting redundant optical signals in addition to the native SL patterns.
+              </p>
+            </td>
+          </tr> 
+
 
 
 
